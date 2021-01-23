@@ -1,0 +1,46 @@
+{
+  "name": "angular-material-datatransfer-lib",
+  "description": "A HTML5 datatransfer UI for handling upload and download of multiple simultaneous files.",
+  "version": "4.0.4",
+  "keywords": [
+    "angular",
+    "material-design",
+    "uploader",
+    "downloader",
+    "datatransfer",
+    "responsive",
+    "web"
+  ],
+  "author": "https://github.com/niklr",
+  "main": "bundles/angular-material-datatransfer-lib.umd.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niklr/angular-material-datatransfer.git"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@angular/animations": "~10.1.6",
+    "@angular/cdk": "^10.2.5",
+    "@angular/common": "~10.1.6",
+    "@angular/core": "~10.1.6",
+    "@angular/flex-layout": "10.0.0-beta.32",
+    "@angular/forms": "~10.1.6",
+    "@angular/material": "^10.2.5",
+    "crypto-browserify": "git+ssh://git@github.com:niklr/crypto-browserify#7f681b3",
+    "file-saver": "git+ssh://git@github.com:eligrey/FileSaver.js#5ed507e",
+    "resumablejs": "git+ssh://git@github.com:chaos-sl/resumable.js.git#2d5e06b",
+    "rxjs": "~6.6.3",
+    "zone.js": "~0.10.2"
+  },
+  "module": "fesm2015/angular-material-datatransfer-lib.js",
+  "es2015": "fesm2015/angular-material-datatransfer-lib.js",
+  "esm2015": "esm2015/angular-material-datatransfer-lib.js",
+  "fesm2015": "fesm2015/angular-material-datatransfer-lib.js",
+  "typings": "angular-material-datatransfer-lib.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy. This is not allowed.\\nPlease delete and rebuild the package, without compiling with Ivy, before attempting to publish.\\n')\" && exit 1"
+  }
+}

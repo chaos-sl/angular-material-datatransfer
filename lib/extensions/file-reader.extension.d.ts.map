@@ -1,0 +1,1 @@
+{"version":3,"file":"file-reader.extension.d.ts","sourceRoot":"","sources":["../../../../projects/amd-lib/src/lib/extensions/file-reader.extension.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,qBAAsB,SAAQ,WAAW;IACtD,MAAM,EAAE,MAAM,CAAC;CAClB;AAED,MAAM,WAAW,eAAgB,SAAQ,KAAK;IAC1C,MAAM,EAAE,qBAAqB,CAAC;IAC9B,UAAU,IAAI,MAAM,CAAC;CACxB"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"host.directive.d.ts","sourceRoot":"","sources":["../../../../projects/amd-lib/src/lib/directives/host.directive.ts"],"names":[],"mappings":"AAAA,OAAO,EAAa,gBAAgB,EAAE,MAAM,eAAe,CAAC;;AAE5D,qBAIa,aAAa;IACH,gBAAgB,EAAE,gBAAgB;gBAAlC,gBAAgB,EAAE,gBAAgB;iCAD5C,aAAa;2CAAb,aAAa;CAEzB"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"config.service.d.ts","sourceRoot":"","sources":["../../../../projects/amd-lib/src/lib/services/config.service.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,UAAU,EAAa,MAAM,4BAA4B,CAAC;;AAEnE,qBACa,aAAa;IAEtB,OAAc,QAAQ,EAAE,UAAU,CAAmB;;IAM9C,IAAI,CAAC,MAAM,EAAE,UAAU;iCARrB,aAAa;qCAAb,aAAa;CA2BzB"}
