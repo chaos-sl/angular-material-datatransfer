@@ -19,7 +19,9 @@ export enum CustomEventType {
     // Indicates that an item has been completed.
     ITEM_COMPLETED,
     // Indicates that all items have been cleared.
-    ITEMS_CLEARED
+    ITEMS_CLEARED,
+    // Indicates that an item have been clicked.
+    ITEM_CLICKED
 }
 
 // tslint:disable-next-line: no-namespace
@@ -36,6 +38,7 @@ export namespace CustomEventTypeExtensions {
     const CUSTOM_EVENT_TYPE_ITEM_REMOVED = CUSTOM_EVENT_TYPE_NS + 'item-removed';
     const CUSTOM_EVENT_TYPE_ITEM_COMPLETED = CUSTOM_EVENT_TYPE_NS + 'item-completed';
     const CUSTOM_EVENT_TYPE_ITEMS_CLEARED = CUSTOM_EVENT_TYPE_NS + 'items-cleared';
+    const CUSTOM_EVENT_TYPE_ITEM_CLICKED = CUSTOM_EVENT_TYPE_NS + 'item-clicked';
     export function toString(type: CustomEventType): string {
         switch (type) {
             case CustomEventType.CREATE:
@@ -58,6 +61,8 @@ export namespace CustomEventTypeExtensions {
                 return CUSTOM_EVENT_TYPE_ITEM_COMPLETED;
             case CustomEventType.ITEMS_CLEARED:
                 return CUSTOM_EVENT_TYPE_ITEMS_CLEARED;
+            case CustomEventType.ITEM_CLICKED:
+                return CUSTOM_EVENT_TYPE_ITEM_CLICKED;
             default:
                 return CUSTOM_EVENT_TYPE_UNKNOWN;
         }
@@ -84,6 +89,8 @@ export namespace CustomEventTypeExtensions {
                 return CustomEventType.ITEM_COMPLETED;
             case CUSTOM_EVENT_TYPE_ITEMS_CLEARED:
                 return CustomEventType.ITEMS_CLEARED;
+            case CUSTOM_EVENT_TYPE_ITEM_CLICKED:
+                return CustomEventType.ITEM_CLICKED;
             default:
                 return CustomEventType.UNKNOWN;
         }

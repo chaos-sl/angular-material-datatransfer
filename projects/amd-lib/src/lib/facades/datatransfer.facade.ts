@@ -261,6 +261,15 @@ export class DatatransferFacade {
     }
   }
 
+  public itemClick(item: IDatatransferItem) {
+   document.dispatchEvent(
+     new CustomEvent(
+       CustomEventTypeExtensions.toString(CustomEventType.ITEM_CLICKED),
+       { detail: item }
+     )
+   );
+  }
+
   public changeItemStatus(
     item: IDatatransferItem,
     status: TransferStatus,

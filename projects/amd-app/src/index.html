@@ -161,6 +161,9 @@
       };
       var event = new CustomEvent('github:niklr/angular-material-datatransfer.create', { 'detail': config });
       document.dispatchEvent(event);
+      document.addEventListener('github:niklr/angular-material-datatransfer.item-clicked',event=>{
+        console.log(event.detail)
+      })
     }, 1000);
   </script>
 

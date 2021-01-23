@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div fxLayout="row" fxLayout.lt-sm="column" class="amd-container-row"
-                [ngClass]="{'selected': item.isSelected}">
+                [ngClass]="{'selected': item.isSelected}" (click)="datatransferFacade.itemClick(item)">
                 <div fxFlex class="amd-container-row-item">
                     <div class="amd-container-row-item-entry">
                         <div fxFlex="40px">
